@@ -14,9 +14,8 @@ const convertToRoman = num => {
       romanized += romanNumeral[index];
       num -= decimalValue[index];
     }
-    result.innerHTML = romanized;
   }
-  return romanized;
+  result.innerHTML = romanized;
 };
 
 submit.addEventListener('click', e => {
