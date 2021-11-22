@@ -13,8 +13,8 @@ const convertToRoman = num => {
     while (decimalValue[index] <= num) {
       romanized += romanNumeral[index];
       num -= decimalValue[index];
-      result.innerHTML = romanized;
     }
+    result.innerHTML = romanized;
   }
   return romanized;
 };
